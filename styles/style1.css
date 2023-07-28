@@ -8,7 +8,7 @@
     align-items:center;
 }
 #scale_test p {
-    width:20px;
+    width:24px;
 }
 #scale_test p img {width:100%;}
 #scale_test h1 {
@@ -36,13 +36,14 @@
     width:150px;
     height:50px;
     border:1px solid brown;
+    background:none;
     margin-right:15px;
     border-radius:10px;
 }
 #scale_test #result_reset #reset {
     width:150px;
     height:50px;
-    background-color:burlywood;
+    background:#cdcdcd;;
     border-radius:10px;
-    
+    font-weight:500;
 }
