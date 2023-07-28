@@ -1,0 +1,50 @@
+#dan99 {
+    width:500px;
+    padding:50px;
+    margin:100px auto;
+    border:1px dashed rgb(255, 124, 144);
+    border-radius:10px;
+}
+#dan99 h1 {
+    font-family: 'SDSamliphopangche_Outline' ,sans-serif;
+    font-size:3rem;
+    font-weight: 00;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
+    color:rgb(255, 124, 144);
+    text-align:center;
+    margin-bottom: 20px;
+}
+#dan99 h1 i {
+    margin:0 10px;
+    font-size:2rem;
+    color:rgb(177, 125, 132);
+}
+#dan99 .contents {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:flex-start;
+}
+#dan99 .contents .danbtn_2 {
+    width:100px; height:40px;
+    border-radius:10px;
+    background:lightpink;
+    color:#fff;
+}
+#dan99 .contents .danbtn_2:hover {
+    background:rgb(255, 124, 144);
+}
+#dan99 .contents #result {
+    display:none;
+    border:1px solid pink;
+    border-radius:10px;
+    margin-left:20px;
+    padding:0 10px;
+    font-size:1.333rem;
+    line-height:40px;
+    letter-spacing:0.1em;
+    color:rgb(255, 124, 144);
+}
