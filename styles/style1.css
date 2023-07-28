@@ -1,0 +1,44 @@
+#scale_test {
+    width:500px; padding:5dvb 0;
+    border-radius:40px;
+    margin:250px auto;
+    border:2px dashed brown;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+}
+#scale_test h1 {
+    font-size:2rem;
+    margin-bottom:30px;
+}
+#scale_test #userheight_input {
+    width:300px;
+    height:50px;
+    margin-bottom:20px;
+    border:1px solid black;
+    padding:10px;
+}
+#scale_test #userweight_input {
+    width:300px;
+    height:50px;
+    margin-bottom:20px;
+}
+#scale_test #result_reset {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+}
+#scale_test #result_reset #result {
+    width:150px;
+    height:50px;
+    border:1px solid brown;
+    margin-right:15px;
+    border-radius:10px;
+}
+#scale_test #result_reset #reset {
+    width:150px;
+    height:50px;
+    background-color:burlywood;
+    border-radius:10px;
+    
+}
