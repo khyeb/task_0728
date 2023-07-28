@@ -9,6 +9,7 @@
 }
 #scale_test p {
     width:24px;
+    margin-bottom:10px;
 }
 #scale_test p img {width:100%;}
 #scale_test h1 {
@@ -18,14 +19,16 @@
 #scale_test #userheight_input {
     width:300px;
     height:50px;
-    margin-bottom:20px;
+    margin-bottom:10px;
+    padding-left:10px;
     border:1px solid black;
-    padding:10px;
 }
 #scale_test #userweight_input {
     width:300px;
     height:50px;
     margin-bottom:20px;
+    padding-left:10px;
+    border:1px solid black;
 }
 #scale_test #result_reset {
     display:flex;
@@ -33,17 +36,24 @@
     justify-content:space-between;
 }
 #scale_test #result_reset #result {
-    width:150px;
+    width:120px;
     height:50px;
-    border:1px solid brown;
-    background:none;
+    background:brown;
     margin-right:15px;
     border-radius:10px;
+    color:#fff;
+}
+#scale_test #result_reset #result:hover {
+    background:darkred;
 }
 #scale_test #result_reset #reset {
-    width:150px;
+    width:120px;
     height:50px;
-    background:#cdcdcd;;
+    background:#eee;
     border-radius:10px;
     font-weight:500;
+}
+#scale_test #result_reset #reset:hover {
+    background:#222;
+    color:#fff;
 }
