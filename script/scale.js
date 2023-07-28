@@ -10,7 +10,7 @@ console.log(userHeight, userWeight, normal_w)
 console.log(heightInput, weightInput, result, resultBtn, resetBtn)
 resultBtn.addEventListener('click',function(){
     normal_w = (userHeight-100)*0.9
-    result.innerHTML=`적정체중은 ${normal_w}이며 ${userWeight-normal_w}초과되셨습니다.`
+    result.innerHTML=`적정체중은 ${normal_w}kg이며 ${userWeight-normal_w}kg 초과되셨습니다.`
 })
 resetBtn.addEventListener('click', function() {
     heightInput.value = '';
