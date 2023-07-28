@@ -7,6 +7,10 @@
     flex-flow:column nowrap;
     align-items:center;
 }
+#scale_test p {
+    width:20px;
+}
+#scale_test p img {width:100%;}
 #scale_test h1 {
     font-size:2rem;
     margin-bottom:30px;
