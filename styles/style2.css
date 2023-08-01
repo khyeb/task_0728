@@ -1,6 +1,6 @@
 #dan99 {
     width:500px;
-    padding:50px;
+    padding: 50px 0px;
     margin:100px auto;
     border:1px dashed rgb(255, 124, 144);
     border-radius:10px;
@@ -37,14 +37,50 @@
 #dan99 .contents .danbtn_2:hover {
     background:rgb(255, 124, 144);
 }
-#dan99 .contents #result {
+#dan99 .contents #dan_2_wrap {
     display:none;
     border:1px solid pink;
     border-radius:10px;
     margin-left:20px;
-    padding:0 10px;
+    padding:20px 10px;
     font-size:1.333rem;
     line-height:40px;
     letter-spacing:0.1em;
     color:rgb(255, 124, 144);
+}
+#dan99 .contents #dan_2_wrap .result_wrap .span {
+    text-align:center;
+    color:pink
+}
+#dan99 .contents #dan_2_wrap .result_wrap {
+    margin-bottom: 10px;
+}
+#dan99 .contents #dan_2_wrap .result_wrap .dan_2{
+    text-align:center;
+    margin-right:10px;
+    width:50px;
+    border:1px solid rgb(255, 124, 144);
+}
+#dan99 .contents #dan_2_wrap .result_wrap .right {
+    text-align:center;
+    margin-right:10px;
+    width:50px;
+    border:1px solid rgb(255, 124, 144)
+}
+#dan99 .contents #dan_2_wrap .result_wrap .result {
+    text-align:center;
+    color:rgb(255, 71, 99);
+    border:2px solid rgb(255, 71, 99);
+    width:50px;
+    margin-left: 10px;
+}
+#dan99 .contents #dan_2_wrap .answer {
+    color:#fff;
+    border-radius:5px;
+    padding:10px;
+    margin:0 50px;
+    background:rgb(255, 124, 144);
+}
+#dan99 .contents #dan_2_wrap .answer:hover {
+    background:rgb(255, 71, 99);
 }

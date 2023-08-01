@@ -1,8 +1,20 @@
 let dan2 = 2;
 const danBtn2 = document.querySelector('.danbtn_2')
-const result = document.querySelector('#result')
-console.log(dan2, danBtn2, result)
+const danresult = document.querySelector('#dan_2_wrap')
+const result = document.querySelectorAll('.result')
+const answer = document.querySelector('.answer')
+console.log(dan2, danBtn2, danresult, result , answer )
 danBtn2.addEventListener('click',function(){
-    result.style.display = 'block';
-    result.innerHTML=`2X1=${dan2*1}<br>2X2=${dan2*2}<br>2X3=${dan2*3}<br>2X4=${dan2*4}<br>2X5=${dan2*5}<br>2X6=${dan2*6}<br>2X7=${dan2*7}<br>2X8=${dan2*8}<br>2X9=${dan2*9}`
+    danresult.style.display = 'block';
+})
+answer.addEventListener('click', function(){
+    result[0].value=2*1
+    result[1].value=2*2
+    result[2].value=2*3
+    result[3].value=2*4
+    result[4].value=2*5
+    result[5].value=2*6
+    result[6].value=2*7
+    result[7].value=2*8
+    result[8].value=2*9
 })
