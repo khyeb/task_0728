@@ -21,7 +21,7 @@ all_use.addEventListener('click',function(){
 })
 point_reset.addEventListener('click',function(){
     use_point.value = 0
-    if(use_point.value == 0){
+    if(use_point.value === '0'){
         point_reset.style.display = 'none'
     }
     user_point.value = point.toLocaleString('ko-kr')
